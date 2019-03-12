@@ -45,6 +45,7 @@
     <session id="-2060416994">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -277,6 +278,12 @@
               <item name="me" type="462c0819:PsiDirectoryNode" />
               <item name="simplefactory" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="factory" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -297,7 +304,11 @@
     <property name="settings.editor.selected.configurable" value="com.zeroturnaround.javarebel.idea.plugin.settings.JRebelSettingsComponent" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\gupao\study" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\gupao\study\src" />
       <recent name="G:\study\src\lib" />
     </key>
   </component>
@@ -378,12 +389,12 @@
       <updated>1552315612567</updated>
       <workItem from="1552315619294" duration="3929000" />
       <workItem from="1552350562009" duration="1476000" />
-      <workItem from="1552389530503" duration="3564000" />
+      <workItem from="1552389530503" duration="5053000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8969000" />
+    <option name="totallyTimeSpent" value="10458000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />

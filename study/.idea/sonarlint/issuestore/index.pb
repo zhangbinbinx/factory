@@ -23,3 +23,5 @@ e
 5src/com/me/abstractorfactory/AbstractFactoryTest.java,4\3\43423e7c881151ff263082f4ee56d5a7a62fc0ba
 Y
 )src/com/me/factory/BaiCaoYuanFactory.java,6\a\6a6a42b45313bcfb6f444df64bdb5dca8de53395
+8
+study.md,9\b\9b7e64a9e4cf286e5f057103e3dacb34a7d6c785
