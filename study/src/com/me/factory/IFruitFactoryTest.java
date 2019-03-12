@@ -1,0 +1,26 @@
+package com.me.factory;
+
+import com.me.model.IFruit;
+
+public class IFruitFactoryTest {
+    public static void main(String[] args) {
+        IFruitFactory fruitFactory = new BaiCaoYuanFactory();
+        fruitFactory.create("com.me.model.Apple","0.5千克的大苹果！");
+        fruitFactory.create("com.me.model.Apple","0.6千克的大苹果！");
+        fruitFactory.create("com.me.model.Apple","0.4千克的大苹果！");
+        IFruit fruit = fruitFactory.create("com.me.model.Apple","0.2千克的大苹果！");
+        fruitFactory.sales(fruit);
+        for (IFruit f : fruitFactory.getFruitList()) {
+            System.out.println("当前水果为：" + f.getName() + "他的重量是" + f.getWeight());
+        }
+        fruitFactory = new YongHuiFactory();
+        fruitFactory.create("com.me.model.Orange","0.1千克的橘子！");
+        fruitFactory.create("com.me.model.Apple","0.2千克的橘子！");
+        fruitFactory.create("com.me.model.Apple","0.3千克的橘子！");
+        fruit = fruitFactory.create("com.me.model.Apple","0.4千克的橘子！");
+        fruitFactory.sales(fruit);
+        for (IFruit f : fruitFactory.getFruitList()) {
+            System.out.println("当前水果为：" + f.getName() + "他的重量是" + f.getWeight());
+        }
+    }
+}
