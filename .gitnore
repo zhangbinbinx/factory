@@ -1,0 +1,4 @@
+#忽略idea目录
+*.idea
+out
+*.iml
