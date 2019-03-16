@@ -2,6 +2,7 @@ package com.me.proxy;
 
 public interface IFruit {
 
-    String getName();
-    String getWeight();
+    String getName(Fruit fruit);
+    String getWeight(Fruit fruit);
+    String salse(Fruit fruit);
 }

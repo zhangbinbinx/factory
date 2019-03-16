@@ -1,0 +1,7 @@
+
+vsquid:S2975"SRemove this "clone" implementation; use a copy constructor or copy factory instead.(‚Ø³Åûÿÿÿÿ8²­Ì“—-
+ksquid:S1182"HUse super.clone() to create and seed the cloned instance to be returned.(‚Ø³Åûÿÿÿÿ8²­Ì“—-
+squid:S1488'"\Immediately return this expression instead of assigning it to the temporary variable "copy".(”ßÙøıÿÿÿÿ8¾“Û“—-
+7squid:S2225-"Return a non null object.(¥¹ï8¾‡Ü“—-
+Fsquid:S1148*"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ë×“—-
+usquid:UselessImportCheck"ERemove this unused import 'com.me.prototype.ConcreateProtoTypeFirst'.(Ú¥šıÿÿÿÿ8ıìæ“—-
