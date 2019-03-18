@@ -1,4 +1,4 @@
 #忽略idea目录
 *.idea
-target/
+gupaostudy/target/
 *.iml
