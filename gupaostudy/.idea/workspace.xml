@@ -2,15 +2,66 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="160e05f4-b428-41ac-b4cd-c7fa18d3fe7a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/me/adapter/Login.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/me/adapter/LoginAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/me/adapter/LoginForQQAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/me/adapter/LoginForWechartAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/me/adapter/LoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.gitnore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitnore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/gupaostudy_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_20_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/me/listener/Gper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/me/listener/GuavaListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/me/listener/GuavaListenerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/me/listener/Question.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gupaostudy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/gupaostudy.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/gupaostudy/com/me/adapter/Login.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/gupaostudy/com/me/adapter/LoginAdapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/gupaostudy/com/me/adapter/LoginForQQAdapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/gupaostudy/com/me/adapter/LoginForWechartAdapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/gupaostudy/com/me/adapter/LoginTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/gupaostudy/com/me/proxy/$Proxy0.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/gupaostudy/com/me/proxy/BaiCaoYuan.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/gupaostudy/com/me/proxy/Fruit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/gupaostudy/com/me/proxy/FruitProxy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/gupaostudy/com/me/proxy/IFruit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/gupaostudy/com/me/proxy/InvocationHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/gupaostudy/com/me/proxy/MyClassLoader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/gupaostudy/com/me/proxy/Proxy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/gupaostudy/com/me/proxy/ProxyTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/gupaostudy/com/me/strategy/BookSite.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/gupaostudy/com/me/strategy/BookSiteFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/gupaostudy/com/me/strategy/ISearchBook.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/gupaostudy/com/me/strategy/O2345Site.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/gupaostudy/com/me/strategy/QiDianSite.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/gupaostudy/com/me/strategy/ShuQiSite.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/gupaostudy/com/me/strategy/StrategyTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/gupaostudy/lib/lombok-1.18.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/gupaostudy/lib/tools.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/me/adapter/Login.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/me/adapter/LoginAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/me/adapter/LoginForQQAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/me/adapter/LoginForWechartAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/me/adapter/LoginTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/me/proxy/BaiCaoYuan.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/me/proxy/Fruit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/me/proxy/FruitProxy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/me/proxy/IFruit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/me/proxy/InvocationHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/me/proxy/MyClassLoader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/me/proxy/Proxy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/me/proxy/ProxyTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/me/strategy/BookSite.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/me/strategy/BookSiteFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/me/strategy/ISearchBook.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/me/strategy/O2345Site.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/me/strategy/QiDianSite.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/me/strategy/ShuQiSite.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/me/strategy/StrategyTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/lombok-1.18.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/tools.jar" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,24 +84,30 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="22" />
+          <entry key="iml" value="1" />
+          <entry key="java" value="27" />
+          <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="22" />
+          <entry key="IDEA_MODULE" value="1" />
+          <entry key="JAVA" value="27" />
+          <entry key="XML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="5" />
-          <entry key="java" value="2236" />
+          <entry key="java" value="2494" />
+          <entry key="xml" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2236" />
+          <entry key="JAVA" value="2494" />
           <entry key="PLAIN_TEXT" value="5" />
+          <entry key="XML" value="6" />
         </counts>
       </usages-collector>
     </session>
@@ -58,54 +115,55 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/me/adapter/LoginAdapter.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/me/listener/GuavaListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/me/adapter/LoginForQQAdapter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="12" column="73" selection-start-line="12" selection-start-column="73" selection-end-line="12" selection-end-column="73" />
+            <state relative-caret-position="150">
+              <caret line="6" column="32" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="32" />
               <folding>
-                <element signature="e#150#151#0" expanded="true" />
-                <element signature="e#214#215#0" expanded="true" />
+                <element signature="e#195#196#0" expanded="true" />
+                <element signature="e#260#261#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/me/adapter/LoginForWechartAdapter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="11" column="54" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
-              <folding>
-                <element signature="e#155#156#0" expanded="true" />
-                <element signature="e#183#184#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/me/adapter/LoginTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/me/adapter/Login.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/me/listener/GuavaListenerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+            <state relative-caret-position="150">
+              <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/me/listener/Gper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="25" column="27" lean-forward="true" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
+              <folding>
+                <element signature="e#303#304#0" expanded="true" />
+                <element signature="e#330#331#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/me/listener/Question.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="305">
+              <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+              <folding>
+                <element signature="e#140#141#0" expanded="true" />
+                <element signature="e#171#172#0" expanded="true" />
+                <element signature="e#219#220#0" expanded="true" />
+                <element signature="e#259#260#0" expanded="true" />
+                <element signature="e#293#294#0" expanded="true" />
+                <element signature="e#323#324#0" expanded="true" />
+                <element signature="e#369#370#0" expanded="true" />
+                <element signature="e#407#408#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -156,6 +214,14 @@
         <option value="$PROJECT_DIR$/src/com/me/adapter/LoginForQQAdapter.java" />
         <option value="$PROJECT_DIR$/src/com/me/adapter/LoginForWechartAdapter.java" />
         <option value="$PROJECT_DIR$/src/com/me/adapter/Login.java" />
+        <option value="$PROJECT_DIR$/src/com/me/adapter/LoginTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/me/adapter/LoginForWechartAdapter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/me/adapter/LoginForQQAdapter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/me/listener/GuavaListener.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/me/listener/Question.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/me/listener/Gper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/me/listener/GuavaListenerTest.java" />
       </list>
     </option>
   </component>
@@ -167,6 +233,22 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="gupaostudy" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="gupaostudy" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="2" />
@@ -193,20 +275,57 @@
             <path>
               <item name="gupaostudy" type="b2602c69:ProjectViewProjectNode" />
               <item name="gupaostudy" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gupaostudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gupaostudy" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="gupaostudy" type="b2602c69:ProjectViewProjectNode" />
               <item name="gupaostudy" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gupaostudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gupaostudy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gupaostudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gupaostudy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="me" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="gupaostudy" type="b2602c69:ProjectViewProjectNode" />
               <item name="gupaostudy" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="me" type="462c0819:PsiDirectoryNode" />
-              <item name="adapter" type="462c0819:PsiDirectoryNode" />
+              <item name="listener" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gupaostudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gupaostudy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gupaostudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gupaostudy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -218,7 +337,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -227,11 +346,17 @@
     <property name="settings.editor.selected.configurable" value="com.zeroturnaround.javarebel.idea.plugin.settings.JRebelSettingsComponent" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.me.proxy" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\gupao\gupaostudy\src\main\webapp\WEB-INF" />
+      <recent name="G:\gupao\gupaostudy\src\main\webapp\views" />
+      <recent name="G:\gupao\gupaostudy\src\main\webapp\WEB-INF\lib" />
+      <recent name="G:\gupao\gupaostudy\src\main" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="G:\gupao\gupaostudy\src\lib" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.me.proxy" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -246,7 +371,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LoginTest">
+  <component name="RunManager" selected="Application.GuavaListenerTest">
+    <configuration name="GuavaListenerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.me.listener.GuavaListenerTest" />
+      <module name="gupaostudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.me.listener.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LoginTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.me.adapter.LoginTest" />
       <module name="gupaostudy" />
@@ -290,9 +428,11 @@
       <item itemvalue="Application.ProxyTest" />
       <item itemvalue="Application.StrategyTest" />
       <item itemvalue="Application.LoginTest" />
+      <item itemvalue="Application.GuavaListenerTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GuavaListenerTest" />
         <item itemvalue="Application.LoginTest" />
         <item itemvalue="Application.StrategyTest" />
         <item itemvalue="Application.ProxyTest" />
@@ -311,23 +451,25 @@
       <updated>1552697752939</updated>
       <workItem from="1552697758213" duration="13643000" />
       <workItem from="1552816188662" duration="1482000" />
-      <workItem from="1552911247176" duration="1256000" />
+      <workItem from="1552911247176" duration="4292000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16381000" />
+    <option name="totallyTimeSpent" value="19417000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="Web" side_tool="true" />
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="JRebel" order="3" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="4" visible="true" weight="0.25751072" />
+      <window_info content_ui="combo" id="Project" order="4" visible="true" weight="0.25751072" />
       <window_info id="Structure" order="5" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Java Enterprise" />
       <window_info anchor="bottom" id="Version Control" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Problems" order="1" />
       <window_info anchor="bottom" id="SonarLint" order="2" />
@@ -335,18 +477,18 @@
       <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="5" show_stripe_button="false" />
       <window_info anchor="bottom" id="JRebel Executor" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32947975" />
+      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49892703" weight="0.23583815" />
       <window_info anchor="bottom" id="Message" order="8" />
       <window_info anchor="bottom" id="Find" order="9" />
-      <window_info active="true" anchor="bottom" id="Run" order="10" sideWeight="0.49946353" visible="true" weight="0.23236994" />
+      <window_info active="true" anchor="bottom" id="Run" order="10" sideWeight="0.49839056" visible="true" weight="0.51676303" />
       <window_info anchor="bottom" id="Debug" order="11" sideWeight="0.49946353" weight="0.51907516" />
       <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="14" />
-      <window_info anchor="bottom" id="JRebel Console" order="15" sideWeight="0.5005365" side_tool="true" visible="true" weight="0.4" />
+      <window_info anchor="bottom" id="JRebel Console" order="15" sideWeight="0.50107294" side_tool="true" weight="0.32947975" />
       <window_info anchor="right" id="Database" order="0" />
       <window_info anchor="right" id="Palette&#9;" order="1" />
-      <window_info anchor="right" id="Maven Projects" order="2" />
+      <window_info anchor="right" id="Maven Projects" order="2" visible="true" weight="0.12124463" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="4" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="5" weight="0.25" />
@@ -363,7 +505,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/me/strategy/StrategyTest.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/me/strategy/StrategyTest.java</url>
           <line>4</line>
           <properties />
           <option name="timeStamp" value="10" />
@@ -379,7 +521,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/me/proxy/IFruit.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/proxy/IFruit.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
@@ -393,7 +535,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/me/proxy/Fruit.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/proxy/Fruit.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
           <caret line="2" selection-start-line="2" selection-end-line="2" />
@@ -410,7 +552,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/me/proxy/BaiCaoYuan.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/proxy/BaiCaoYuan.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="317">
           <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
@@ -425,14 +567,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/me/proxy/ProxyTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/proxy/ProxyTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
           <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/me/proxy/FruitProxy.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/proxy/FruitProxy.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
@@ -446,7 +588,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/me/proxy/MyClassLoader.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/proxy/MyClassLoader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
           <caret line="17" selection-start-line="17" selection-end-line="17" />
@@ -456,7 +598,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/me/proxy/Proxy.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/proxy/Proxy.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="101">
           <caret line="76" column="43" lean-forward="true" selection-start-line="76" selection-start-column="43" selection-end-line="76" selection-end-column="43" />
@@ -469,7 +611,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/me/proxy/InvocationHandler.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/proxy/InvocationHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="6" column="43" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
@@ -479,21 +621,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/me/strategy/ISearchBook.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/strategy/ISearchBook.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/me/strategy/BookSite.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/strategy/BookSite.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/me/strategy/ShuQiSite.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/strategy/ShuQiSite.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="10" selection-start-line="10" selection-end-line="10" />
@@ -504,7 +646,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/me/strategy/BookSiteFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/strategy/BookSiteFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="8" column="57" selection-start-line="8" selection-start-column="57" selection-end-line="8" selection-end-column="57" />
@@ -514,7 +656,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/me/strategy/O2345Site.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/strategy/O2345Site.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
@@ -525,14 +667,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/me/strategy/StrategyTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/strategy/StrategyTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
           <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/me/strategy/QiDianSite.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/strategy/QiDianSite.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
           <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
@@ -545,28 +687,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/me/adapter/LoginAdapter.java">
+    <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gupaostudy.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/adapter/Login.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+        <state relative-caret-position="200">
+          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/me/adapter/LoginForQQAdapter.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="73" selection-start-line="12" selection-start-column="73" selection-end-line="12" selection-end-column="73" />
-          <folding>
-            <element signature="e#150#151#0" expanded="true" />
-            <element signature="e#214#215#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="425">
+          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/me/adapter/LoginForWechartAdapter.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/adapter/LoginForWechartAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="54" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
+        <state relative-caret-position="375">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
           <folding>
             <element signature="e#155#156#0" expanded="true" />
             <element signature="e#183#184#0" expanded="true" />
@@ -574,17 +718,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/me/adapter/LoginTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/adapter/LoginTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/me/adapter/Login.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/adapter/LoginForQQAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
-          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#150#151#0" expanded="true" />
+            <element signature="e#214#215#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/adapter/LoginAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/listener/GuavaListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="32" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="32" />
+          <folding>
+            <element signature="e#195#196#0" expanded="true" />
+            <element signature="e#260#261#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/listener/Question.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <folding>
+            <element signature="e#140#141#0" expanded="true" />
+            <element signature="e#171#172#0" expanded="true" />
+            <element signature="e#219#220#0" expanded="true" />
+            <element signature="e#259#260#0" expanded="true" />
+            <element signature="e#293#294#0" expanded="true" />
+            <element signature="e#323#324#0" expanded="true" />
+            <element signature="e#369#370#0" expanded="true" />
+            <element signature="e#407#408#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/listener/Gper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="25" column="27" lean-forward="true" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
+          <folding>
+            <element signature="e#303#304#0" expanded="true" />
+            <element signature="e#330#331#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/listener/GuavaListenerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -594,10 +795,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>gupaostudy:war exploded</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -605,7 +808,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>No facets are configured</last-edited>
+          <last-edited>Web</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -665,7 +868,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>tools</last-edited>
+          <last-edited>lib</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
