@@ -4,3 +4,6 @@
 gupaostudy/target/
 
 *.iml
+
+.idea/
+target/
