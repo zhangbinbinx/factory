@@ -7,22 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="160e05f4-b428-41ac-b4cd-c7fa18d3fe7a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/gupaostudy_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/gupaostudy_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gupaostudy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/gupaostudy.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/annotation/Autowired.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/annotation/Autowired.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/annotation/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/annotation/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/annotation/RequestMapping.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/annotation/RequestMapping.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/annotation/RequestParam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/annotation/RequestParam.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/annotation/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/annotation/Service.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/controller/TestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/server/MyServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/server/MyServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/file/springioc.jpg" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -45,10 +30,10 @@
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.33" value="1" />
           <entry key="project.open.time.35" value="1" />
-          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.4" value="2" />
           <entry key="project.open.time.51" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -287,7 +272,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -298,64 +282,13 @@
             <path>
               <item name="gupaostudy" type="b2602c69:ProjectViewProjectNode" />
               <item name="gupaostudy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gupaostudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gupaostudy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gupaostudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gupaostudy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gupaostudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gupaostudy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gupaostudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gupaostudy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gupaostudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gupaostudy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gupaostudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gupaostudy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gupaostudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gupaostudy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="file" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -370,17 +303,18 @@
     <property name="settings.editor.selected.configurable" value="com.zeroturnaround.javarebel.idea.plugin.settings.JRebelSettingsComponent" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.me.proxy" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\gupao\gupaostudy\file" />
+      <recent name="G:\gupao\gupaostudy\src\lib" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="G:\gupao\gupaostudy\src\main\webapp\WEB-INF" />
       <recent name="G:\gupao\gupaostudy\src\main\webapp\views" />
       <recent name="G:\gupao\gupaostudy\src\main\webapp\WEB-INF\lib" />
       <recent name="G:\gupao\gupaostudy\src\main" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="G:\gupao\gupaostudy\src\lib" />
-    </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.me.proxy" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -683,11 +617,12 @@
       <workItem from="1553515632695" duration="4371000" />
       <workItem from="1553604599962" duration="9311000" />
       <workItem from="1553652052588" duration="20000" />
+      <workItem from="1554016260225" duration="459000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35463000" />
+    <option name="totallyTimeSpent" value="35922000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -696,7 +631,7 @@
       <window_info id="UI Designer" order="1" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="JRebel" order="3" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="4" visible="true" weight="0.27628756" />
+      <window_info active="true" content_ui="combo" id="Project" order="4" visible="true" weight="0.28004292" />
       <window_info id="Structure" order="5" side_tool="true" weight="0.25" />
       <window_info id="Web" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="0" show_stripe_button="false" />
