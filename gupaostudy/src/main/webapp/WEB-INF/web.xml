@@ -6,7 +6,7 @@
 
     <servlet>
         <servlet-name>mvc</servlet-name>
-        <servlet-class>com.spring.server.MyServlet</servlet-class>
+        <servlet-class>org.me.web.mvc.DispactherServlet</servlet-class>
         <init-param>
             <param-name>contextConfiglocation</param-name>
             <param-value>application.properties</param-value>
