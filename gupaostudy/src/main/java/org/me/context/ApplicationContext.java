@@ -1,11 +1,16 @@
 package org.me.context;
 
+import org.me.annotation.Autowired;
+import org.me.annotation.Controller;
+import org.me.annotation.Service;
 import org.me.beans.BeanWrapper;
 import org.me.beans.DefaultListAbleBeanFactory;
 import org.me.beans.config.BeanDefinition;
+import org.me.beans.config.BeanPostProcessor;
 import org.me.beans.support.BeanDefinitionReader;
 import org.me.core.BeanFactory;
 
+import java.lang.reflect.Field;
 import java.util.List;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
@@ -14,8 +19,8 @@ public class ApplicationContext extends DefaultListAbleBeanFactory implements Be
     private String [] configLocations;
     private BeanDefinitionReader reader;
     //单例的 IOC 容器缓存
-    private Map<String,Object> sigletonObjects = new ConcurrentHashMap<String, Object>();
-    private Map<String,BeanWrapper> factoryBeanInstaceCache = new ConcurrentHashMap<String,BeanWrapper>();
+    private Map<String,Object> sigletonBeanCacheMap = new ConcurrentHashMap<String, Object>();
+    private Map<String,BeanWrapper> beanWrapperMap = new ConcurrentHashMap<String,BeanWrapper>();
 
     public ApplicationContext(String... configLocations) {
         this.configLocations = configLocations;
@@ -66,7 +71,57 @@ public class ApplicationContext extends DefaultListAbleBeanFactory implements Be
     }
 
     public Object getBean(String beanName) throws Exception{
-        return getBean(beanName);
+        BeanDefinition beanDefinition = this.beanDefinitionMap.get(beanName);
+        BeanPostProcessor postProcessor = new BeanPostProcessor();
+        Object instance = instantiaBean(beanDefinition);
+        if(null == instance){return null;}
+        postProcessor.postProcessorBeforInitialization(instance,beanName);
+        BeanWrapper beanWrapper = new BeanWrapper(instance);
+        this.beanWrapperMap.put(beanName,beanWrapper);
+        postProcessor.postProcessAfterInitialization(instance,beanName);
+        populateBean(beanName,instance);
+        return this.beanWrapperMap.get(beanName).getWrappedInstance();
+    }
+
+    private void populateBean(String beanName, Object instance) {
+        Class<?> clazz = instance.getClass();
+        if(!clazz.isAnnotationPresent(Controller.class) || !clazz.isAnnotationPresent(Service.class)){return;}
+        Field []fields = clazz.getDeclaredFields();
+        for (Field f : fields) {
+            if(!f.isAnnotationPresent(Autowired.class)){continue;}
+            Autowired autowired = f.getAnnotation(Autowired.class);
+            String wirdBeanName = autowired.value().trim();
+            if("".equals(wirdBeanName)){
+                wirdBeanName = f.getType().getName();
+            }
+            f.setAccessible(true);
+            try {
+                f.set(instance,this.beanWrapperMap.get(wirdBeanName).getWrappedInstance());
+            }catch (Exception e){
+                e.printStackTrace();
+            }
+
+        }
+
+    }
+
+    private Object instantiaBean(BeanDefinition beanDefinition) {
+        Object istance = null;
+        String className = beanDefinition.getBeanClassName();
+        try {
+            if(this.sigletonBeanCacheMap.containsKey(className)){
+                istance = this.sigletonBeanCacheMap.get(className);
+                return istance;
+            }else{
+                Class<?> clazz = Class.forName(className);
+                istance = clazz.newInstance();
+                return istance;
+            }
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+
+        return null;
     }
 
     public Object getBean(Class<?> className)throws Exception {
