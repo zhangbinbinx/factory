@@ -59,3 +59,11 @@ t
 Dsrc/main/java/org/me/context/support/AbstractApplicationContext.java,7\5\758877ddccd41308a126be85866509ef8318921b
 j
 :src/main/java/org/me/beans/DefaultListAbleBeanFactory.java,e\c\ec3396d69ec76024e186225f1c532f0250553064
+h
+8src/main/java/org/me/beans/config/BeanPostProcessor.java,7\9\79479dd513756e614936e7cdda11ccfe430167f8
+d
+4src/main/java/org/me/context/ApplicationContext.java,a\4\a44d00c85f81384cb9cb2ca1b39a03abf4facd95
+l
+<src/main/java/org/me/beans/support/BeanDefinitionReader.java,5\3\531a9461a1ae24f151e309f05cf0b4536462ce51
+^
+.src/main/java/org/me/demo/action/MyAction.java,a\b\abdc9eab1cff353d92e76a0c9c74356883a844e3

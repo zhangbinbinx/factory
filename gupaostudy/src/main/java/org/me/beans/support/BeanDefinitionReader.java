@@ -39,10 +39,10 @@ public class BeanDefinitionReader {
         File file = new File(url.getFile());
         for (File f : file.listFiles()) {
             if(f.isDirectory()){
-                doScanner(scanPackage + "." + file.getName());
+                doScanner(scanPackage + "." + f.getName());
             }else{
                 if(!f.getName().endsWith(".class")){continue;}
-                String className = scanPackage + f.getName().replace(".class","");
+                String className = scanPackage + "." + f.getName().replace(".class","");
                 registryBeanClasses.add(className);
             }
         }
@@ -57,7 +57,7 @@ public class BeanDefinitionReader {
                 result.add(doCreateBeanDefinition(toLowerFirstCase(beanClass.getSimpleName()),beanClass.getName()));
                 Class<?> []interfaces = beanClass.getInterfaces();
                 for (Class<?> i : interfaces) {
-                   result.add(doCreateBeanDefinition(toLowerFirstCase(i.getSimpleName()),i.getName()));
+                   result.add(doCreateBeanDefinition(i.getName(),i.getName()));
                 }
 
             }
@@ -82,5 +82,9 @@ public class BeanDefinitionReader {
 //在 Java 中，对 char 做算学运算，实际上就是对 ASCII 码做算学运算
         chars[0] += 32;
         return String.valueOf(chars);
+    }
+
+    public Properties getConfig() {
+        return this.config;
     }
 }

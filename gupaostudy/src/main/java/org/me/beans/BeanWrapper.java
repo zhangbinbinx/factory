@@ -9,4 +9,5 @@ public class BeanWrapper {
     public BeanWrapper(Object wrappedInstance) {
         this.wrappedInstance = wrappedInstance;
     }
+
 }

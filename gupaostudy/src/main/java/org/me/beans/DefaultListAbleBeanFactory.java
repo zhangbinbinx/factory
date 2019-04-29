@@ -1,5 +1,6 @@
 package org.me.beans;
 
+import lombok.Data;
 import org.me.beans.config.BeanDefinition;
 import org.me.context.support.AbstractApplicationContext;
 

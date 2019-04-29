@@ -1,5 +1,6 @@
 package org.me.context;
 
+import lombok.Data;
 import org.me.annotation.Autowired;
 import org.me.annotation.Controller;
 import org.me.annotation.Service;
@@ -13,8 +14,9 @@ import org.me.core.BeanFactory;
 import java.lang.reflect.Field;
 import java.util.List;
 import java.util.Map;
+import java.util.Properties;
 import java.util.concurrent.ConcurrentHashMap;
-
+@Data
 public class ApplicationContext extends DefaultListAbleBeanFactory implements BeanFactory {
     private String [] configLocations;
     private BeanDefinitionReader reader;
@@ -114,6 +116,7 @@ public class ApplicationContext extends DefaultListAbleBeanFactory implements Be
                 return istance;
             }else{
                 Class<?> clazz = Class.forName(className);
+                if(clazz.isInterface()){return null;}
                 istance = clazz.newInstance();
                 return istance;
             }
@@ -126,5 +129,11 @@ public class ApplicationContext extends DefaultListAbleBeanFactory implements Be
 
     public Object getBean(Class<?> className)throws Exception {
         return getBean(className);
+    }
+    public String[] getBeanDefinitionNames(){
+        return this.beanDefinitionMap.keySet().toArray(new String[this.beanWrapperMap.size()]);
+    }
+    public Properties getConfig(){
+        return this.reader.getConfig();
     }
 }
