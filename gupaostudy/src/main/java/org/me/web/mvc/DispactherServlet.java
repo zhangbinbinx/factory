@@ -131,11 +131,14 @@ public class DispactherServlet extends HttpServlet {
 
     private void initViewResoler(ApplicationContext applicationContext) {
         String root = applicationContext.getConfig().getProperty("templateRoot");
-        String rootPath = this.getClass().getClassLoader().getResource(root).getFile();
+        this.viewResolverList.add(new ViewResolver(root));
+       /* String rootPath = this.getClass().getClassLoader().getResource(root).getFile();
         File rootDir = new File(rootPath);
         for (File file : rootDir.listFiles()) {
-            this.viewResolverList.add(new ViewResolver(file.getAbsolutePath()));
-        }
+            String tempPath = file.getAbsolutePath();
+            String path = tempPath.substring(tempPath.lastIndexOf("classes") + 8).replace("/","//");
+            this.viewResolverList.add(new ViewResolver(root));
+        }*/
 
     }
 
@@ -176,8 +179,8 @@ public class DispactherServlet extends HttpServlet {
                 for (Method m : methods) {
                     if(!m.isAnnotationPresent(RequestMapping.class)){continue;}
                     RequestMapping req = m.getAnnotation(RequestMapping.class);
-                    baseUrl = "/" + baseUrl + "/" + req.value();
-                    String regex = baseUrl.replaceAll("\\*",".*").replaceAll("/+", "/");;
+                    String tempUrl = "/" + baseUrl + "/" + req.value();
+                    String regex = tempUrl.replaceAll("\\*",".*").replaceAll("/+", "/");;
                     Pattern pattern = Pattern.compile(regex);
                     this.handlerMappingList.add(new HandlerMapping(pattern,controller,m));
                     log.info("Mapping:" + regex + "," + m.getName());

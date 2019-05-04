@@ -58,6 +58,7 @@ public class ApplicationContext extends DefaultListAbleBeanFactory implements Be
     }
 
     private void doAutowared() {
+        //注入时，需要先注入service，在注入controller
         for (Map.Entry<String, BeanDefinition> b : super.beanDefinitionMap.entrySet()) {
             String beanName = b.getKey();
             BeanDefinition beanDefinition = b.getValue();
@@ -80,6 +81,11 @@ public class ApplicationContext extends DefaultListAbleBeanFactory implements Be
         postProcessor.postProcessorBeforInitialization(instance,beanName);
         BeanWrapper beanWrapper = new BeanWrapper(instance);
         this.beanWrapperMap.put(beanName,beanWrapper);
+        //初始化  按照类的类名称
+        Class<?>[] interfaces = instance.getClass().getInterfaces();
+        for (Class<?> c : interfaces) {
+            this.beanWrapperMap.put(c.getName(),beanWrapper);
+        }
         postProcessor.postProcessAfterInitialization(instance,beanName);
         populateBean(beanName,instance);
         return this.beanWrapperMap.get(beanName).getWrappedInstance();
@@ -87,7 +93,7 @@ public class ApplicationContext extends DefaultListAbleBeanFactory implements Be
 
     private void populateBean(String beanName, Object instance) {
         Class<?> clazz = instance.getClass();
-        if(!clazz.isAnnotationPresent(Controller.class) || !clazz.isAnnotationPresent(Service.class)){return;}
+        if(!clazz.isAnnotationPresent(Controller.class) && !clazz.isAnnotationPresent(Service.class)){return;}
         Field []fields = clazz.getDeclaredFields();
         for (Field f : fields) {
             if(!f.isAnnotationPresent(Autowired.class)){continue;}

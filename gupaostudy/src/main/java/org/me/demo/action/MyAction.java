@@ -29,8 +29,8 @@ public class MyAction {
 
 	@Autowired
 	IQueryService queryService;
-	@Autowired
-	IModifyService modifyService;
+	/*@Autowired
+	IModifyService modifyService;*/
 
 	@RequestMapping("/query.json")
 	public ModelAndView query(HttpServletRequest request, HttpServletResponse response,
@@ -39,7 +39,7 @@ public class MyAction {
 		return out(response,result);
 	}
 	
-	@RequestMapping("/add*.json")
+	/*@RequestMapping("/add*.json")
 	public ModelAndView add(HttpServletRequest request,HttpServletResponse response,
 			   @RequestParam("name") String name,@RequestParam("addr") String addr){
 		String result = null;
@@ -70,7 +70,7 @@ public class MyAction {
 			@RequestParam("name") String name){
 		String result = modifyService.edit(id,name);
 		return out(response,result);
-	}
+	}*/
 	
 	
 	
