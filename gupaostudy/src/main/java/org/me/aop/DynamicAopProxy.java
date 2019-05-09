@@ -22,10 +22,11 @@ public class DynamicAopProxy implements AopProxy, InvocationHandler {
     }
 
     public Object getProxy(ClassLoader classLoader) {
-        return Proxy.newProxyInstance(classLoader,this.config.getClass().getInterfaces(),this);
+        System.getProperties().put("sun.misc.ProxyGenerator.saveGeneratedFiles","true");
+        return Proxy.newProxyInstance(classLoader,this.config.getTargetClass().getInterfaces(),this);
     }
 
-    public Object invoke(Object proxy, Method m, Object[] args) throws Exception{
+    public Object invoke(Object proxy, Method m, Object[] args) throws Throwable{
         List<Object> interceptors = config.getInterceptorsAndDynamicInterceptionAdvise(m,this.config.getTargetClass());
         MethodInvocation methodInvocation = new MethodInvocation(proxy,this.config.getTarget(),m,args,this.config.getTargetClass(),interceptors);
         return methodInvocation.proceed();

@@ -2,6 +2,8 @@ package org.me.aop.support;
 
 import lombok.Data;
 import org.me.aop.AopConfig;
+import org.me.aop.aspect.AfterReturningAdviceInterceptor;
+import org.me.aop.aspect.AfterThrowingAdviceInterceptor;
 import org.me.aop.aspect.MethodBeforeAdviceInterceptor;
 
 import java.lang.reflect.Method;
@@ -35,6 +37,7 @@ public class AdrvisedSupport {
         return cached;
     }
     public boolean pointcutMatch(){
+        parse();
         return this.pointcutClassPattern.matcher(this.targetClass.toString()).matches();
     }
     private void parse(){
@@ -90,7 +93,7 @@ public class AdrvisedSupport {
                                 new AfterThrowingAdviceInterceptor(
                                         aspectMethods.get(config.getAspectAfterThrow()),
                                         aspectClass.newInstance());
-                        throwingAdvice.setThrowName(config.getAspectAfterThrowingName());
+                        throwingAdvice.setThrowingName(config.getAspectAfterThrowingName());
                         advices.add(throwingAdvice);
                     }
                     methodCache.put(m,advices);

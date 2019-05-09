@@ -27,7 +27,7 @@ import javax.servlet.http.HttpServletResponse;
 @RequestMapping("/web")
 public class MyAction {
 
-	@Autowired
+	@Autowired("queryService")
 	IQueryService queryService;
 	/*@Autowired
 	IModifyService modifyService;*/

@@ -25,7 +25,7 @@ public class MethodInvocation implements JoinPoint {
         this.interceptorsAndDynamicMethodMatchers = interceptors;
     }
 
-    public Object proceed() throws Exception {
+    public Object proceed() throws Throwable {
         if (this.currentInterceptorIndex == this.interceptorsAndDynamicMethodMatchers.size() - 1)
         {
             return this.method.invoke(this.target,this.arguments);

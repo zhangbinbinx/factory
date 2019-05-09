@@ -4,6 +4,11 @@ import lombok.Data;
 import org.me.annotation.Autowired;
 import org.me.annotation.Controller;
 import org.me.annotation.Service;
+import org.me.aop.AopConfig;
+import org.me.aop.AopProxy;
+import org.me.aop.CglibAopProxy;
+import org.me.aop.DynamicAopProxy;
+import org.me.aop.support.AdrvisedSupport;
 import org.me.beans.BeanWrapper;
 import org.me.beans.DefaultListAbleBeanFactory;
 import org.me.beans.config.BeanDefinition;
@@ -70,6 +75,11 @@ public class ApplicationContext extends DefaultListAbleBeanFactory implements Be
                 }
             }
         }
+       /* for (Map.Entry<String, BeanWrapper> b : beanWrapperMap.entrySet()) {
+            String beanName = b.getKey();
+            populateBean(beanName,b.getValue().getWrappedInstance());
+        }*/
+
 
     }
 
@@ -82,10 +92,10 @@ public class ApplicationContext extends DefaultListAbleBeanFactory implements Be
         BeanWrapper beanWrapper = new BeanWrapper(instance);
         this.beanWrapperMap.put(beanName,beanWrapper);
         //初始化  按照类的类名称
-        Class<?>[] interfaces = instance.getClass().getInterfaces();
+       /* Class<?>[] interfaces = instance.getClass().getInterfaces();
         for (Class<?> c : interfaces) {
             this.beanWrapperMap.put(c.getName(),beanWrapper);
-        }
+        }*/
         postProcessor.postProcessAfterInitialization(instance,beanName);
         populateBean(beanName,instance);
         return this.beanWrapperMap.get(beanName).getWrappedInstance();
@@ -124,6 +134,16 @@ public class ApplicationContext extends DefaultListAbleBeanFactory implements Be
                 Class<?> clazz = Class.forName(className);
                 if(clazz.isInterface()){return null;}
                 istance = clazz.newInstance();
+                AdrvisedSupport config = instantionAopConfig(beanDefinition);
+                config.setTargetClass(clazz);
+                config.setTarget(istance);
+                Object proxy = null;
+                if(config.pointcutMatch()) {
+                    istance = createProxy(config).getProxy();
+                    //proxy = createProxy(config).getProxy();
+                }
+                //this.sigletonBeanCacheMap.put(beanDefinition.getFactoryBeanName(),proxy == null ? istance : proxy);
+                this.sigletonBeanCacheMap.put(beanDefinition.getFactoryBeanName(),istance);
                 return istance;
             }
         }catch (Exception e){
@@ -132,7 +152,23 @@ public class ApplicationContext extends DefaultListAbleBeanFactory implements Be
 
         return null;
     }
-
+    private AdrvisedSupport instantionAopConfig(BeanDefinition beanDefinition) throws Exception{
+        AopConfig config = new AopConfig();
+        config.setPointCut(reader.getConfig().getProperty("pointCut"));
+        config.setAspectClass(reader.getConfig().getProperty("aspectClass"));
+        config.setAspectBefore(reader.getConfig().getProperty("aspectBefore"));
+        config.setAspectAfter(reader.getConfig().getProperty("aspectAfter"));
+        config.setAspectAfterThrow(reader.getConfig().getProperty("aspectAfterThrow"));
+        config.setAspectAfterThrowingName(reader.getConfig().getProperty("aspectAfterThrowingName"));
+        return new AdrvisedSupport(config);
+    }
+    private AopProxy createProxy(AdrvisedSupport config) {
+        Class targetClass = config.getTargetClass();
+        if (targetClass.getInterfaces().length > 0) {
+            return new DynamicAopProxy(config);
+        }
+        return new CglibAopProxy(config);
+    }
     public Object getBean(Class<?> className)throws Exception {
         return getBean(className);
     }
