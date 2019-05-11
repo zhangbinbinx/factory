@@ -93,3 +93,7 @@ c
 .src/main/java/org/me/orm/core/common/Page.java,c\d\cd814ca1a90d2621078575ab9bffd435a3afbc22
 ]
 -src/main/java/org/me/orm/framework/Order.java,6\1\61c718327c46af22b856e39b3e3b62adc8a94708
+Q
+!file/mybatis设计模式使用.md,b\a\baa3e4ca1e5cb149f1b83010e8670211cefe20f4
+U
+%src/test/java/org/me/orm/OrmTest.java,3\0\30f9c0e11fb1b9fbd1df1b55f1e1181318ffba22
