@@ -1,0 +1,9 @@
+2019-05-11 12:19:36 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-1} inited
+  2019-05-11 12:19:37 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-2} inited
+  2019-05-11 12:19:37 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-2} closed
+  2019-05-11 12:19:37 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-1} closed
+  2019-05-11 12:27:38 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-1} inited
+  2019-05-11 12:27:39 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-2} inited
+  2019-05-11 12:27:40 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-2} closed
+  2019-05-11 12:27:40 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-1} closed
+  
