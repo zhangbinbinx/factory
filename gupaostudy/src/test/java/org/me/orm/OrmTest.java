@@ -73,7 +73,7 @@ public class OrmTest {
     }
 
     @Test
-    
+
     public void testInsertMember(){
         try {
             for (int age = 25; age < 35; age++) {
