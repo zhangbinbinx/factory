@@ -1,4 +1,4 @@
-package com.gupaoedu;
+package com.me;
 
 import com.me.domain.Blog;
 import com.me.domain.BlogExample;

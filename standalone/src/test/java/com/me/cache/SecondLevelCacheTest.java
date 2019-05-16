@@ -1,4 +1,4 @@
-package com.gupaoedu.cache;
+package com.me.cache;
 
 import com.me.domain.Blog;
 import com.me.mapper.BlogMapper;

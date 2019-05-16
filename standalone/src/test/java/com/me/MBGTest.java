@@ -1,4 +1,4 @@
-package com.gupaoedu;
+package com.me;
 
 import org.mybatis.generator.api.MyBatisGenerator;
 import org.mybatis.generator.config.Configuration;
